@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/toast" >
+    
+    <TextView 
+        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="哈哈，完全自由"
+        android:textColor="#ED4A4B"
+        android:gravity="center"
+        />
+    <ImageView 
+        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_launcher"
+        
+        />
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="完全自定义"
+        android:textColor="#ED4A4B"
+        
+        />
+
+</LinearLayout>
